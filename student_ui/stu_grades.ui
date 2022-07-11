@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>login</class>
+ <widget class="QDialog" name="login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1124</width>
+    <height>849</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>学生个人成绩查询</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>login_ui.png</normaloff>login_ui.png</iconset>
+  </property>
+  <widget class="QPushButton" name="select_all_Button">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>680</y>
+     <width>131</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>遍历</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="select_Button">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>680</y>
+     <width>141</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>查询</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="cour_name_label">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>270</y>
+     <width>161</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>课程名：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="cour_name_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>280</y>
+     <width>211</width>
+     <height>51</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="learn_sem_label">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>360</y>
+     <width>121</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>学期：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="learn_year_label">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>470</y>
+     <width>121</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>学年：</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="stu_grad_tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>110</y>
+     <width>591</width>
+     <height>491</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="learn_sem_comboBox">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>370</y>
+     <width>211</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>全部</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>春季</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>秋季</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="learn_year_comboBox">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>480</y>
+     <width>211</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>全部</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>第一学年</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>第二学年</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>第三学年</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>第四学年</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLineEdit" name="stu_id_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>180</y>
+     <width>211</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="stu_id_label">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>170</y>
+     <width>161</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>学号：</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
